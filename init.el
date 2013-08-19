@@ -124,7 +124,8 @@
         yasnippet
         ))
 
-;; (package-refresh-contents)
+(unless package-archive-contents
+  (package-refresh-contents))
 
 (dolist (package my/packages)
   (when (or (not (package-installed-p package)))
