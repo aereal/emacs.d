@@ -1,0 +1,11 @@
+;; auto-complete
+(require 'auto-complete-config)
+(ac-config-default)
+(setq ac-dwim t)
+(setq ac-use-menu-map t)
+(define-key ac-menu-map "\C-n" 'ac-next)
+(define-key ac-menu-map "\C-p" 'ac-precious)
+(setq ac-delay 0.05)
+(setq ac-auto-show-menu 0.05)
+(setq ac-ignore-case 'smart)
+(setq ac-menu-height 10)
