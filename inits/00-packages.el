@@ -3,6 +3,7 @@
         auto-complete
         color-moccur
         color-theme-solarized
+        cperl-mode
         deferred
         elscreen
         emmet-mode
